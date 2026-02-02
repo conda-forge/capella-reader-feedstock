@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: capella-reader
-  version: 0.1.1
+  version: "0.2.1"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/capella_reader-${{ version }}.tar.gz
-  sha256: c6a3296f1490164522ef68e3ac5deab4ff1ed2cbb6ec0216eb1f8ce775c1f674
+  sha256: 7f711484796c223064a72e515107d5a64d3abd64bd3488d5a851aa5fa3403f8d
 
 build:
   number: 0
